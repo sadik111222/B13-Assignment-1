@@ -265,6 +265,7 @@ li {}
 
 #challeng {
     padding: 0 120px;
+    margin-bottom: 90px;
 }
 
 .challenge-container {
@@ -328,16 +329,19 @@ li {}
     padding: 30px 0;
 }
 
-.fotter-list {
+.footer-list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 16px;
-
 }
 
-.fotter-list ul {
+.link-footer{
+    font-size: 20px;
+}
+
+.footer-list ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,12 +349,12 @@ li {}
 
 }
 
-.fotter-list ul li {
+.footer-list ul li {
 
     list-style: none;
 }
 
-.fotter-list ul li a {
+.footer-list ul li a {
     text-decoration: none;
     color: white;
 }
