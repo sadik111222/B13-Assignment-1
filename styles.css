@@ -1,0 +1,102 @@
+/* shard styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 1600;
+
+}
+.font-open-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.button{
+    border-radius: 4px;
+    border: none;
+    background-color:#30B868;
+    padding: 12px 16px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: #159048;
+}
+
+
+/* main styles */
+.nav-bar{
+    display: flex;
+    width: 82%;
+    height: 92px;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    background-color:#ffff;
+    margin: 0px auto;
+
+}
+.nav-bar ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+    gap: 32px;
+    
+}
+.nav-bar ul a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+
+/* banner section */
+.container{
+    background: url(./assets/hero-bg.png);
+    height: 674px;
+    width: 1600px;
+}
+.banner-container{
+    width: 1360px;
+    height: 380px;
+    text-align: center;
+    margin: 0px auto;
+    /* align-items: center; */
+    padding:155px 30px ;
+
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.btn-outline:hover{
+    /* color: rgb(111, 104, 104); */
+}
+.banner-container h1{
+    font-size: 72px;
+    margin-bottom: 16px;
+    color: white;
+}
+.banner-container span{
+    color:#30B868;
+}
+.banner-container p{
+    color: white;
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin: 32px 320px;
+}
+.btn-container{
+    padding: 8px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom:16px ;
+}
