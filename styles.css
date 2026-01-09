@@ -210,6 +210,15 @@ ul,ol,li{
     flex-direction: column;
     /* gap: 16px; */
 }
+.main-text ul {
+
+}
+.main-text ul li{
+list-style: none;
+}
+.main-text ul li a{
+    text-decoration: none;
+}
 #challeng{
     padding: 0 120px;
 }
@@ -239,8 +248,54 @@ padding-bottom: 16px;
     padding-top: 16px;
 }
 .fotter-container{
-    background:rgba(0, 25, 49, 1)
-    
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    /* height: 348px; */
+    background:rgba(0, 25, 49, 1);
+
+}
+/* .fotter-container-2{
+    display: flex;
+    flex-direction: column;
+
+} */
+.fotter-container-2{
+    padding: 120px 120px 80px 120px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid rgba(229, 231, 235, 1);
+}
+.last-foot{
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.fotter-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.fotter-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+.fotter-list ul li{
+
+    list-style: none;
+}
+.fotter-list ul li a{
+    text-decoration: none;
+    color: white;
 }
 /* .brain-section{
     display: flex;
